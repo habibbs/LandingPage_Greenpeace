@@ -1,0 +1,335 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+   width: 80%;
+   margin: auto;
+   padding: 0;
+}
+
+header {
+   color: #25a244;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+   /* background-color: aquamarine; */
+}
+
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 15px;
+} 
+
+nav li a {
+   text-decoration: none;
+   color: black;
+}
+
+nav li a:hover {
+   color: #25a244;
+   
+}
+
+nav li .login {
+   font-size: 16px;
+   background-color: #25a244;
+   padding: 8px 40px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bolder;
+   color: white;
+}
+
+nav li .login:hover {
+   background-color: #4ad66d;
+   cursor: pointer;
+}
+
+/* main {
+   background-color: aqua;
+} */
+
+main .subcontent {
+   width: 40%;
+}
+
+.content-utama {
+   display: flex;
+   align-items: center;
+   height: 570px;
+}
+
+.content-utama figure {
+   width: 60%;
+   display: flex;
+   justify-content: flex-end;
+   margin: 0;
+}
+
+
+.content-utama img{
+   border-radius: 8px;
+}
+
+main #description {
+   margin-top: 10px;
+   font-weight: lighter;
+   font-size: 1rem;
+}
+
+main .content-utama .subcontent h1{
+   font-size: 2.5rem;
+}
+
+main .content-utama button {
+   margin-top: 20px;
+   font-size: 16px;
+   background-color: #25a244;
+   padding: 12px 40px;
+   border: none;
+   border-radius: 3px;
+   color: white;
+   font-weight: bolder;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+main .content-utama button:hover {
+   background-color: #4ad66d;
+}
+
+main form {
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+}
+.content-kedua {
+   display: flex;
+   height: 450px;
+   /* align-items: center; */
+   /* background-color: #25a244; */
+}
+
+.content-kedua figure img {
+   border-radius: 5px;
+}
+
+.content-kedua h2{
+   color: #000000;
+   text-align: center;
+}
+
+input {
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+main form #status{
+   margin-top: 10px;
+   margin-right: 310px;
+}
+
+.content-kedua form button{
+   margin-top: 20px;
+   font-size: 16px;
+   background-color: #25a244;
+   padding: 12px 60px;
+   border: none;
+   color: #ffffff;
+   font-weight: bolder;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.content-kedua form button:hover {
+   background-color: #4ad66d;
+}
+
+
+
+main .content-ketiga {
+   margin-top: 90px;
+   /* background-color: aqua; */
+}
+
+.content-ketiga .artikel {
+   /* display: flex; */
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+main .artikel figure {
+   /* background-color: #25a244; */
+   padding: 15px 20px;
+   display: flex;
+   margin-top: 20px;
+}
+
+main .artikel figure img {
+   border-radius: 8px;
+}
+
+main .artikel figure figcaption {
+   margin-left: 10px;
+}
+
+main .artikel figure figcaption span {
+   color: #4ad66d;
+}
+
+main .artikel figure figcaption h2, article, button {
+   margin-top: 10px;
+}
+
+main .artikel figure figcaption article {
+   font-weight: lighter;
+   font-size: .8rem;
+}
+
+main .artikel figure figcaption button {
+   padding: 5px 10px;
+   background-color: #ffffff;
+   color: #4ad66d;
+   border-radius: 5px;
+   cursor: pointer;
+   border: 1px solid #25a244;
+   font-weight: bold;
+}
+
+main .artikel figure figcaption button:hover {
+   background-color: #25a244;
+   border: 1px solid #ffffff;
+   color: #ffffff;
+}
+
+
+main .content-keempat {
+   margin-top: 90px;
+}
+
+.content-keempat .hero-donasi {
+   height: 400px;
+   background-image: url(https://donate1seasia.greenpeace.org/indonesia/wp-content/uploads/2023/01/GREENPEACE-LP-BANNER-IMAGE-2023-1536x800.png);
+   background-position: bottom;
+   background-size: cover;
+   border-radius: 10px;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-keempat .hero-donasi h1 {
+   color: #ffffff;
+}
+
+.content-keempat .hero-donasi button {
+   padding: 10px 15px;
+   font-weight: bold;
+   border-radius: 8px;
+   border: none;
+}
+
+.content-keempat .hero-donasi button:hover {
+   background-color: #25a244;
+}
+
+.content-keempat .daftar-donasi {
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+.content-keempat .daftar-donasi figure {
+   margin-top: 20px;
+   padding: 15px 20px;
+   /* background-color: #6b7e70; */
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+}
+
+.content-keempat .daftar-donasi figure img {
+   border-radius: 8px;
+   margin-bottom: 10px;
+}
+
+.content-keempat figure figcaption span {
+   color: #4ad66d;
+}
+
+.content-keempat figure figcaption h2, button {
+   margin-top: 10px;
+}
+
+.content-keempat figure button {
+   padding: 10px 20px;
+   font-weight: bold;
+   border-radius: 8px;
+   border: none;
+   background-color: #25a244;
+   color: #ffffff;
+}
+
+.content-keempat figure button:hover {
+   background-color: #4ad66d;
+}
+
+footer {
+   margin-top: 50px;
+   /* background-color: #4ad66d; */
+}
+
+footer hr {
+   border: 2px solid #25a244;
+}
+
+footer .content {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   column-gap: 100px;
+   padding: 10px 20px;
+   margin-top: 20px;
+   /* background-color: aqua; */
+}
+
+footer .content .content1 p {
+   margin-top: 10px;
+   font-weight: lighter;
+}
+
+footer .content .menu ul{
+   list-style-type: none;
+   line-height: 25px;
+   margin-top: 20px;
+}
+
+footer .content .menu ul a{
+   text-decoration: none;
+   color: black;
+   font-weight: lighter;
+}
+
+footer .content .contact ul{
+   list-style-type: none;
+   line-height: 25px;
+   margin-top: 20px;
+}
+
+footer .content .contact ul a{
+   text-decoration: none;
+   color: black;
+   font-weight: lighter;
+}
+
+footer .scnd {
+   margin-top: 20px;
+   padding: 35px;
+   text-align: center;
+   font-weight: bold;
+}
